@@ -1,0 +1,19 @@
+{
+  "name": "maha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass-chokidar style/scss -o style/css",
+    "watch-css": "npm run build-css && node-sass-chokidar style/scss -o style/css --watch --recursive",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "node-sass-chokidar": "0.0.1",
+    "webpack": "^2.5.1"
+  }
+}
