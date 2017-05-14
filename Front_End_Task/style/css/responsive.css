@@ -38,8 +38,7 @@
     display: none; }
   .container-table ul.inner-list > li {
     width: calc(33.3333% - 4px);
-    margin: 0 2px 0 2px;
-    height: 32px; }
+    margin: 0 2px 0 2px; }
   .container-table .lg-hidden {
     display: block; }
   .container-table ul.inner-list span {
@@ -51,7 +50,8 @@
   .container-table .top-20 {
     padding-top: 20px !important; }
   .container-table .btn {
-    font-size: 9px; } }
+    font-size: 9px;
+    padding: 10px 4px; } }
 
 @media (max-width: 950px) and (min-width: 768px) {
   .container-table .price-item .box-2 > h4 {
